@@ -17,7 +17,6 @@ class MusikAdapter(
             binding.tvAuthor.text = musikModel.author
             binding.tvNum.text = musikModel.number.toString()
             binding.tvTime.text = musikModel.time.toString()
-
             itemView.setOnClickListener{
                 onClick(adapterPosition)
             }
@@ -33,9 +32,4 @@ class MusikAdapter(
     override fun getItemCount(): Int {
         return musikList.size
     }
-
 }
-
-
-
-//1:11:21

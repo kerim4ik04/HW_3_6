@@ -9,7 +9,6 @@ import com.example.hw_3_6.databinding.FragmentPromotionsBinding
 
 class PromotionsFragment : Fragment() {
     private lateinit var dataFromMusikFragment: Musik
-
     private lateinit var binding: FragmentPromotionsBinding
 
     override fun onCreateView(
@@ -26,7 +25,4 @@ class PromotionsFragment : Fragment() {
         binding.tvAuthorName.text = dataFromMusikFragment.author
         binding.tvMusicName.text = dataFromMusikFragment.name
     }
-
-
-
 }

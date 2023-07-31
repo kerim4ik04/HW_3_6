@@ -51,5 +51,4 @@
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginEnd="30dp"/>
 
-
 </androidx.constraintlayout.widget.ConstraintLayout>
