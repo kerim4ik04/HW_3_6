@@ -12,6 +12,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         supportFragmentManager.beginTransaction().add(R.id.musik,MusikFragment()).commit()
+        supportFragmentManager.beginTransaction().add(R.id.fon,ImageFragment()).commit()
 
 
 
